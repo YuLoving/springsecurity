@@ -1,0 +1,24 @@
+Shiro可以用代码或者注解来控制权限,通常我们使用注解控制,不仅简单方便,而且更加灵活.Shiro注解一共有五个:
+
+注解名称	说明
+RequiresAuthentication	使用该注解标注的类,方法等在访问时,当前Subject必须在当前session中已经过认证.
+RequiresGuest	使用该注解标注的类,方法等在访问时,当前Subject可以是“gust”身份,不需要经过认证或者在原先的session中存在记录.
+RequiresUser	验证用户是否被记忆,有两种含义:一种是成功登录的(subject.isAuthenticated()结果为true);另外一种是被记忆的(subject.isRemembered()结果为true).
+RequiresPermissions	当前Subject需要拥有某些特定的权限时,才能执行被该注解标注的方法.如果没有权限,则方法不会执行还会抛出AuthorizationException异常.
+RequiresRoles	当前Subject必须拥有所有指定的角色时,才能访问被该注解标注的方法.如果没有角色,则方法不会执行还会抛出AuthorizationException异常.
+一般情况下我们在项目中做权限控制,使用最多的是RequiresPermissions和RequiresRoles,允许存在多个角色和权限,默认逻辑是AND,也就是同时拥有这些才可以访问方法,可以在注解中以参数的形式设置成OR
+
+示例
+//拥有一个角色就可以访问
+@RequiresRoles(value={"ADMIN","USER"},logical = Logical.OR)
+//拥有所有权限才可以访问
+@RequiresPermissions(value={"sys:user:info","sys:role:info"},logical = Logical.AND)
+
+
+使用顺序:Shiro注解是存在顺序的,当多个注解在一个方法上的时候,会逐个检查,知道全部通过为止,默认拦截顺序是:RequiresRoles->RequiresPermissions->RequiresAuthentication-> RequiresUser->RequiresGuest
+
+示例
+//拥有ADMIN角色同时还要有sys:role:info权限
+@RequiresRoles(value={"ADMIN")
+@RequiresPermissions("sys:role:info")
+
