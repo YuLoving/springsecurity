@@ -20,8 +20,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * /**
- * Copyright 2008-2018 OPPO Mobile Comm Corp., Ltd, All rights reserved.*
+ *
  * Package: cn.nj.springsecurity.Controller.shiroController
  *  权限测试
  * @Author: zhaotianyu

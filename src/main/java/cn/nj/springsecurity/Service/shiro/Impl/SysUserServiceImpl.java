@@ -9,8 +9,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 /**
- * /**
- * Copyright 2008-2018 OPPO Mobile Comm Corp., Ltd, All rights reserved.*
+ *
  * Package: cn.nj.springsecurity.Service.shiro.Impl
  *  系统用户业务实现
  * @Author: zhaotianyu

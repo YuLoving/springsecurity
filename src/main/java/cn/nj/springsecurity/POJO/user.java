@@ -8,8 +8,7 @@ import javax.persistence.Id;
 import java.util.Date;
 
 /**
- * /**
- * Copyright 2008-2018 OPPO Mobile Comm Corp., Ltd, All rights reserved.*
+ *
  * Package: cn.nj.springsecurity.POJO
  *
  * @Author: zhaotianyu

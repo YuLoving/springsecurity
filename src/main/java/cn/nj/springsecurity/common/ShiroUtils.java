@@ -14,8 +14,7 @@ import java.util.Collection;
 import java.util.Objects;
 
 /**
- * /**
- * Copyright 2008-2018 OPPO Mobile Comm Corp., Ltd, All rights reserved.*
+ *
  * Package: cn.nj.springsecurity.common
  *      Shiro工具类
  * @Author: zhaotianyu

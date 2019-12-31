@@ -4,8 +4,7 @@ import cn.nj.springsecurity.POJO.shiroentity.SysRoleMenuEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
- * /**
- * Copyright 2008-2018 OPPO Mobile Comm Corp., Ltd, All rights reserved.*
+ *
  * Package: cn.nj.springsecurity.Mappper.ShiroDao
  *  角色权限关系DAO
  * @Author: zhaotianyu

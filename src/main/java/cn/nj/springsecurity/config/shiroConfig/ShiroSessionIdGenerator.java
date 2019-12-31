@@ -7,8 +7,7 @@ import org.apache.shiro.session.mgt.eis.SessionIdGenerator;
 import java.io.Serializable;
 
 /**
- * /**
- * Copyright 2008-2018 OPPO Mobile Comm Corp., Ltd, All rights reserved.*
+ *
  * Package: cn.nj.springsecurity.config.shiroConfig
  *  自定义SessionId生成器
  * @Author: zhaotianyu

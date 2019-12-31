@@ -3,8 +3,7 @@ package cn.nj.springsecurity.Service.shiro;
 import cn.nj.springsecurity.POJO.shiroentity.SysRoleMenuEntity;
 
 /**
- * /**
- * Copyright 2008-2018 OPPO Mobile Comm Corp., Ltd, All rights reserved.*
+ *
  * Package: cn.nj.springsecurity.Service.shiro
  *  角色与权限业务接口
  * @Author: zhaotianyu

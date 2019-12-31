@@ -3,8 +3,7 @@ package cn.nj.springsecurity.common;
 import org.apache.shiro.crypto.hash.SimpleHash;
 
 /**
- * /**
- * Copyright 2008-2018 OPPO Mobile Comm Corp., Ltd, All rights reserved.*
+ *
  * Package: cn.nj.springsecurity.common
  *   Sha-256加密工具
  * @Author: zhaotianyu

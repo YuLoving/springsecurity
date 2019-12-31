@@ -24,8 +24,7 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * /**
- * Copyright 2008-2018 OPPO Mobile Comm Corp., Ltd, All rights reserved.*
+ *
  * Package: cn.nj.springsecurity.config.shiroConfig
  *  Shiro核心类   Shiro权限匹配和账号密码匹配
  * @Author: zhaotianyu

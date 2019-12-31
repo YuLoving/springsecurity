@@ -18,8 +18,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 /**
- * /**
- * Copyright 2008-2018 OPPO Mobile Comm Corp., Ltd, All rights reserved.*
+ *
  * Package: cn.nj.springsecurity.config
  *
  * @Author: zhaotianyu

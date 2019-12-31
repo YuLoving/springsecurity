@@ -5,8 +5,7 @@ import cn.nj.springsecurity.POJO.shiroentity.SysUserEntity;
 import java.util.List;
 
 /**
- * /**
- * Copyright 2008-2018 OPPO Mobile Comm Corp., Ltd, All rights reserved.*
+ *
  * Package: cn.nj.springsecurity.Service.shiro
  *    系统用户业务接口
  * @Author: zhaotianyu

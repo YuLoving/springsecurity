@@ -10,8 +10,7 @@ import javax.servlet.ServletResponse;
 import java.io.Serializable;
 
 /**
- * /**
- * Copyright 2008-2018 OPPO Mobile Comm Corp., Ltd, All rights reserved.*
+ *
  * Package: cn.nj.springsecurity.config.shiroConfig
  *      自定义获取Token
  * @Author: zhaotianyu

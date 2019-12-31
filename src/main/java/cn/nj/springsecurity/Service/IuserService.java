@@ -5,8 +5,7 @@ import cn.nj.springsecurity.POJO.user;
 import java.util.List;
 
 /**
- * /**
- * Copyright 2008-2018 OPPO Mobile Comm Corp., Ltd, All rights reserved.*
+ *
  * Package: cn.nj.springsecurity.Service
  *
  * @Author: zhaotianyu
