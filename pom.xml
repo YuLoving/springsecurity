@@ -113,13 +113,12 @@
             <artifactId>commons-codec</artifactId>
             <version>1.13</version>
         </dependency>
-
-     <!--   &lt;!&ndash;Sharding-JDBC3.0版本&ndash;&gt;
+        <!-- rocketmq -->
         <dependency>
-            <groupId>io.shardingsphere</groupId>
-            <artifactId>sharding-jdbc-spring-boot-starter</artifactId>
-            <version>${sharding.jdbc.version}</version>
-        </dependency>-->
+            <groupId>org.apache.rocketmq</groupId>
+            <artifactId>rocketmq-client</artifactId>
+            <version>4.6.0</version>
+        </dependency>
 
         <!-- Shiro 核心依赖 -->
         <dependency>

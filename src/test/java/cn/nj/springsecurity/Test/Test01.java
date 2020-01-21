@@ -15,5 +15,7 @@ public class Test01 {
 
         String s = Arrays.stream(strings).map(c -> c.toString()).collect(Collectors.joining("-"));
         System.out.println(s);
+
+
     }
 }
