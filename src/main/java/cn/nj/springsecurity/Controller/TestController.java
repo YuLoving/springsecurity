@@ -29,6 +29,7 @@ public class TestController {
     @Autowired
     private RocketMqService mqService;
 
+
     @GetMapping("/send")
     public SendResult send(){
         test test = new test();
